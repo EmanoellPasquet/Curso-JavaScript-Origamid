@@ -47,7 +47,6 @@ tipoDeDado("Olá");
 addEventListener("scroll", function () {
   return console.log("Emanoell Pasquet");
 });
-
 // Corrija o erro abaixo
 var totalPaises = 193;
 function precisoVisitar(paisesVisitados) {
