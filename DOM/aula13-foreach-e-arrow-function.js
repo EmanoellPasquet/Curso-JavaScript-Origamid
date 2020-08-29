@@ -2,19 +2,23 @@
 const paragrafo = document.querySelectorAll("p");
 
 paragrafo.forEach(function (item, index) {
-  console.log(item, index);
+  // console.log(item, index);
 });
 
 // Mostre o texto dos parágrafos no console
 
-paragrafo.forEach(function (item, index) {
+const pText = document.querySelectorAll("paragrafo");
+const pTextArray = Array.from(pText);
+
+pTextArray.forEach(function (item) {
   console.log(item.innerText);
 });
+
 // Como corrigir os erros abaixo:
 const imgs = document.querySelectorAll("img");
 
 //parêntese nos argumentos
-imgs.forEach((item, index) => {
+imgs.forEach(item, (index) => {
   console.log(item, index);
 });
 
